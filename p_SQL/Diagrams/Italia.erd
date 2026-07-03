@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="Italia.erd">
+	<entities>
+		<data-source id="mysql8-19eeeb731d5-66f16797c6ab287c">
+			<entity id="1" name="comuni" fq-name="corso_java.comuni" order="0" x="42" y="379">
+				<path name="corso_java"/>
+			</entity>
+			<entity id="2" name="province" fq-name="corso_java.province" order="1" x="431" y="628">
+				<path name="corso_java"/>
+			</entity>
+			<entity id="3" name="regioni" fq-name="corso_java.regioni" order="2" x="470" y="399">
+				<path name="corso_java"/>
+			</entity>
+			<entity id="4" name="ripartizioni" fq-name="corso_java.ripartizioni" order="3" x="470" y="216">
+				<path name="corso_java"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_comuni_province" fq-name="corso_java.comuni.fk_comuni_province" type="fk" pk-ref="2" fk-ref="1"/>
+		<relation name="fk_comuni_regioni" fq-name="corso_java.comuni.fk_comuni_regioni" type="fk" pk-ref="3" fk-ref="1"/>
+		<relation name="fk_province_regioni" fq-name="corso_java.province.fk_province_regioni" type="fk" pk-ref="3" fk-ref="2"/>
+		<relation name="fk_comuni_ripartizioni" fq-name="corso_java.comuni.fk_comuni_ripartizioni" type="fk" pk-ref="4" fk-ref="1"/>
+		<relation name="fk_regioni_ripartizioni" fq-name="corso_java.regioni.fk_regioni_ripartizioni" type="fk" pk-ref="4" fk-ref="3"/>
+	</relations>
+</diagram>

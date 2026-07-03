@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apod Page</title>
+    <link rel="stylesheet" href="./css/apod.css" />
+  </head>
+  <body>
+    <h1>Apod Page</h1>
+    <main>
+      <h2>Search</h2>
+
+      <form>
+        <label for="date">
+          by date:
+          <input id="date" type="date" />
+        </label>
+        <input id="submit-btn" type="submit" />
+      </form>
+      <h3>or</h3>
+      <form>
+        <label for="start-date">
+          by start date:
+          <input id="start-date" type="date" />
+        </label>
+        <label for="end-date">
+          and by end date:
+          <input id="end-date" type="date" />
+        </label>
+        <input id="submit-btn2" type="submit" />
+      </form>
+      <h3>or</h3>
+      <form>
+        <label for="count">
+          by count:
+          <input id="count" type="number" />
+        </label>
+        <input id="submit-btn3" type="submit" />
+      </form>
+      <h2>Result:</h2>
+      <div id="placeholder"></div>
+    </main>
+    <script src="./js/apod.js"></script>
+  </body>
+</html>

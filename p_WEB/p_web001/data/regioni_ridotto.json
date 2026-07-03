@@ -1,0 +1,31 @@
+{
+  "regioni": [
+    {
+      "COD_REG": "01",
+      "COD_RIP": "1",
+      "DEN_REG": "Piemonte",
+      "TIPO_REG": "1",
+      "DESC_TIPO_REG": "Regione a Statuto ordinario",
+      "COD_REG_FISCALE": "80087670016",
+      "COD_NUTS2_2024": "ITC1"
+    },
+    {
+      "COD_REG": "02",
+      "COD_RIP": "1",
+      "DEN_REG": "Valle d'Aosta\/Vallée d'Aoste",
+      "TIPO_REG": "2",
+      "DESC_TIPO_REG": "Regione a Statuto speciale",
+      "COD_REG_FISCALE": "80002270074",
+      "COD_NUTS2_2024": "ITC2"
+    },
+    {
+      "COD_REG": "03",
+      "COD_RIP": "1",
+      "DEN_REG": "Lombardia",
+      "TIPO_REG": "1",
+      "DESC_TIPO_REG": "Regione a Statuto ordinario",
+      "COD_REG_FISCALE": "80050050154",
+      "COD_NUTS2_2024": "ITC4"
+    }
+  ]
+}

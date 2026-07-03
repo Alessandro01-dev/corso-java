@@ -1,0 +1,22 @@
+.box {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: blue;
+}
+
+input[type="button"] {
+  margin: 20px;
+}

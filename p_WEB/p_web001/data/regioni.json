@@ -1,0 +1,183 @@
+{
+"regioni": [
+	{
+		"COD_REG" : "01",
+		"COD_RIP" : "1",
+		"DEN_REG" : "Piemonte",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80087670016",
+		"COD_NUTS2_2024" : "ITC1"
+	},
+	{
+		"COD_REG" : "02",
+		"COD_RIP" : "1",
+		"DEN_REG" : "Valle d'Aosta\/Vallée d'Aoste",
+		"TIPO_REG" : "2",
+		"DESC_TIPO_REG" : "Regione a Statuto speciale",
+		"COD_REG_FISCALE" : "80002270074",
+		"COD_NUTS2_2024" : "ITC2"
+	},
+	{
+		"COD_REG" : "03",
+		"COD_RIP" : "1",
+		"DEN_REG" : "Lombardia",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80050050154",
+		"COD_NUTS2_2024" : "ITC4"
+	},
+	{
+		"COD_REG" : "04",
+		"COD_RIP" : "2",
+		"DEN_REG" : "Trentino-Alto Adige\/Südtirol",
+		"TIPO_REG" : "2",
+		"DESC_TIPO_REG" : "Regione a Statuto speciale",
+		"COD_REG_FISCALE" : "80003690221",
+		"COD_NUTS2_2024" : null
+	},
+	{
+		"COD_REG" : "05",
+		"COD_RIP" : "2",
+		"DEN_REG" : "Veneto",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80007580279",
+		"COD_NUTS2_2024" : "ITH3"
+	},
+	{
+		"COD_REG" : "06",
+		"COD_RIP" : "2",
+		"DEN_REG" : "Friuli-Venezia Giulia",
+		"TIPO_REG" : "2",
+		"DESC_TIPO_REG" : "Regione a Statuto speciale",
+		"COD_REG_FISCALE" : "80014930327",
+		"COD_NUTS2_2024" : "ITH4"
+	},
+	{
+		"COD_REG" : "07",
+		"COD_RIP" : "1",
+		"DEN_REG" : "Liguria",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "00849050109",
+		"COD_NUTS2_2024" : "ITC3"
+	},
+	{
+		"COD_REG" : "08",
+		"COD_RIP" : "2",
+		"DEN_REG" : "Emilia-Romagna",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80062590379",
+		"COD_NUTS2_2024" : "ITH5"
+	},
+	{
+		"COD_REG" : "09",
+		"COD_RIP" : "3",
+		"DEN_REG" : "Toscana",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "01386030488",
+		"COD_NUTS2_2024" : "ITI1"
+	},
+	{
+		"COD_REG" : "10",
+		"COD_RIP" : "3",
+		"DEN_REG" : "Umbria",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80000130544",
+		"COD_NUTS2_2024" : "ITI2"
+	},
+	{
+		"COD_REG" : "11",
+		"COD_RIP" : "3",
+		"DEN_REG" : "Marche",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80008630420",
+		"COD_NUTS2_2024" : "ITI3"
+	},
+	{
+		"COD_REG" : "12",
+		"COD_RIP" : "3",
+		"DEN_REG" : "Lazio",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80143490581",
+		"COD_NUTS2_2024" : "ITI4"
+	},
+	{
+		"COD_REG" : "13",
+		"COD_RIP" : "4",
+		"DEN_REG" : "Abruzzo",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80003170661",
+		"COD_NUTS2_2024" : "ITF1"
+	},
+	{
+		"COD_REG" : "14",
+		"COD_RIP" : "4",
+		"DEN_REG" : "Molise",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "00169440708",
+		"COD_NUTS2_2024" : "ITF2"
+	},
+	{
+		"COD_REG" : "15",
+		"COD_RIP" : "4",
+		"DEN_REG" : "Campania",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80011990639",
+		"COD_NUTS2_2024" : "ITF3"
+	},
+	{
+		"COD_REG" : "16",
+		"COD_RIP" : "4",
+		"DEN_REG" : "Puglia",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80017210727",
+		"COD_NUTS2_2024" : "ITF4"
+	},
+	{
+		"COD_REG" : "17",
+		"COD_RIP" : "4",
+		"DEN_REG" : "Basilicata",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "80002950766",
+		"COD_NUTS2_2024" : "ITF5"
+	},
+	{
+		"COD_REG" : "18",
+		"COD_RIP" : "4",
+		"DEN_REG" : "Calabria",
+		"TIPO_REG" : "1",
+		"DESC_TIPO_REG" : "Regione a Statuto ordinario",
+		"COD_REG_FISCALE" : "02205340793",
+		"COD_NUTS2_2024" : "ITF6"
+	},
+	{
+		"COD_REG" : "19",
+		"COD_RIP" : "5",
+		"DEN_REG" : "Sicilia",
+		"TIPO_REG" : "2",
+		"DESC_TIPO_REG" : "Regione a Statuto speciale",
+		"COD_REG_FISCALE" : "80012000826",
+		"COD_NUTS2_2024" : "ITG1"
+	},
+	{
+		"COD_REG" : "20",
+		"COD_RIP" : "5",
+		"DEN_REG" : "Sardegna",
+		"TIPO_REG" : "2",
+		"DESC_TIPO_REG" : "Regione a Statuto speciale",
+		"COD_REG_FISCALE" : "80002870923",
+		"COD_NUTS2_2024" : "ITG2"
+	}
+]}

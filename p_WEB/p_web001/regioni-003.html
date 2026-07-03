@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regioni 03</title>
+    <link rel="stylesheet" href="./css/table.css" />
+  </head>
+  <body>
+    <h1>Regioni 03</h1>
+
+    <div id="placeholder"></div>
+
+    <script src="./js/build_table.js"></script>
+    <script src="./js/fetch-demo.js"></script>
+    <script>
+      "use strict";
+      const placeholder = document.querySelector("#placeholder");
+      const campi = [
+        "COD_REG",
+        "COD_RIP",
+        "DEN_REG",
+        "TIPO_REG",
+        "DESC_TIPO_REG",
+        "COD_REG_FISCALE",
+        "COD_NUTS2_2024",
+      ];
+      const intestazioni = [
+        "Codice Regione",
+        "Codice Ripartizione",
+        "Denominazione Regione",
+        "Tipo regione",
+        "Descrizione Regione",
+        "Codice Regione Fiscali",
+        "Cod Nuts2",
+      ];
+
+      getData(url)
+        .then((data) => {
+          generateTable(intestazioni, data.regioni, campi, placeholder);
+        })
+        .catch((error) => {
+          console.error("Error during fetching data:", error);
+        });
+    </script>
+  </body>
+</html>

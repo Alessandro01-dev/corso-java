@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <h1>Form Demo</h1>
+
+    <!-- https://duckduckgo.com/?ia=web&origin=funnel_home_google&t=h_&q=css3 -->
+
+    <!-- ricostruiamo la query con il form
+    https://duckduckgo.com/
+    ?
+    ia=web
+    &
+    origin=funnel_home_google
+    &
+    t=h_
+    &
+    q=css3 -->
+
+    <form action="https://duckduckgo.com/" method="GET">
+      <label for="ricerca"></label>
+      <input id="ricerca" type="text" />
+      <input type="hidden" name="ia" value="web" />
+      <input type="hidden" name="origin" value="funnel_home_google" />
+      <input type="hidden" name="t" value="h_" />
+      <input type="hidden" name="q" value="css3" />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

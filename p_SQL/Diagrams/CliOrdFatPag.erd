@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="CliOrdFatPag.erd">
+	<entities>
+		<data-source id="mysql8-19eeeb731d5-66f16797c6ab287c">
+			<entity id="1" name="clienti" fq-name="corso_java.clienti" order="0" x="377" y="382">
+				<path name="corso_java"/>
+			</entity>
+			<entity id="2" name="fatture" fq-name="corso_java.fatture" order="1" x="100" y="107">
+				<path name="corso_java"/>
+			</entity>
+			<entity id="3" name="ordini" fq-name="corso_java.ordini" order="2" x="378" y="129">
+				<path name="corso_java"/>
+			</entity>
+			<entity id="4" name="pagamenti" fq-name="corso_java.pagamenti" order="3" x="88" y="387">
+				<path name="corso_java"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_ordini_clienti" fq-name="corso_java.ordini.fk_ordini_clienti" type="fk" pk-ref="1" fk-ref="3"/>
+		<relation name="fk_pagamenti_fatture" fq-name="corso_java.pagamenti.fk_pagamenti_fatture" type="fk" pk-ref="2" fk-ref="4"/>
+		<relation name="fk_fatture_ordini" fq-name="corso_java.fatture.fk_fatture_ordini" type="fk" pk-ref="3" fk-ref="2"/>
+	</relations>
+</diagram>

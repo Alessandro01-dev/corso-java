@@ -1,0 +1,37 @@
+/* CSS3 container */
+
+* {
+  /* universal */
+  background-color: lightgray;
+}
+
+#i001 {
+  /* id selector */
+  color: green;
+  font-size: 4em;
+}
+
+img {
+  /*selettore type*/
+  border: 1px solid red;
+  width: 300px;
+  height: 200px;
+}
+
+/* .immagine_lunga selettore class
+            {
+            border: 1px solid blue;
+            width: 600px;
+            height: 200px;
+        } */
+div img {
+  border: 1px solid blue;
+  width: 600px;
+  height: 200px;
+}
+
+div.yy img {
+  border: 5px solid black;
+  width: 300px;
+  height: 100px;
+}

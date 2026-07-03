@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/table.css" />
+    <script src="./js/js-006.js"></script>
+  </head>
+
+  <body>
+    <h1>regioni 02</h1>
+    <div id="placeholder"></div>
+
+    <script src="./js/build_table.js"></script>
+    <script>
+      "use strict";
+      const placeholder = document.querySelector("#placeholder");
+      const campi = [
+        "COD_REG",
+        "COD_RIP",
+        "DEN_REG",
+        "TIPO_REG",
+        "DESC_TIPO_REG",
+        "COD_REG_FISCALE",
+        "COD_NUTS2_2024",
+      ];
+      const intestazioni = [
+        "Codice Regione",
+        "Codice Ripartizione",
+        "Denominazione Regione",
+        "Tipo regione",
+        "Descrizione Regione",
+        "Codice Regione Fiscali",
+        "Cod Nuts2",
+      ];
+      generateTable(intestazioni, regioni.regioni, campi, placeholder);
+    </script>
+  </body>
+</html>
