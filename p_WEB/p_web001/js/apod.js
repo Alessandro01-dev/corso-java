@@ -9,8 +9,7 @@ const submitBtn = document.querySelector("#submit-btn");
 const submitBtn2 = document.querySelector("#submit-btn2");
 const submitBtn3 = document.querySelector("#submit-btn3");
 
-const API_KEY = "muDSYFrEALvOpk7D6KOR5PrcsV6PHseSzAXEsJT7";
-const NASA_BASE_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
+const NASA_BASE_URL = `https://api.nasa.gov/planetary/apod?api_key=${NASA_API_KEY}`;
 
 const getQueryData = (e) => {
   e.preventDefault();

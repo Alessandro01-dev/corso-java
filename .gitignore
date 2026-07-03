@@ -1,4 +1,8 @@
 .DS_Store
+node_modules/
+.env
+p_WEB/p_web001/js/config.js
+
 
 /target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -161,6 +165,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
 
 # End of https://www.gitignore.io/api/git,java,maven,eclipse,windows
