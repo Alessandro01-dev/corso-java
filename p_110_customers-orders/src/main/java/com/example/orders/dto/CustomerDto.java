@@ -9,8 +9,7 @@ public record CustomerDto(
 	String email,
 	String phone,
 	String address,
-	String city
-	
-) {
+	String city,
+	Boolean active) {
 	
 }

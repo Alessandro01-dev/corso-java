@@ -4,7 +4,11 @@ import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.PostPersist;
+import jakarta.persistence.PrePersist;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -24,6 +28,7 @@ import lombok.ToString;
 public class Customer {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
 	@Column(name = "first_name", length = 100, nullable = false)
@@ -34,24 +39,34 @@ public class Customer {
 
 	@Column(name = "email", length = 255, nullable = false)
 	private String email;
-	
+
 	@Column(name = "phone", length = 50, nullable = true)
 	private String phone;
-	
+
 	@Column(name = "address", length = 50, nullable = true)
 	private String address;
-	
+
 	@Column(name = "city", length = 50, nullable = true)
 	private String city;
-	
+
 	@Column(name = "is_active", nullable = false)
-	private Boolean isActive;
-	
+	private Boolean active;
+
 	@Column(name = "creation_date", nullable = false)
 	private LocalDateTime creationDate;
-	
+
 	@Column(name = "update_date", nullable = false)
 	private LocalDateTime updateDate;
 
-	
+	@PrePersist
+	private void onCreate() {
+		creationDate = LocalDateTime.now();
+		updateDate = LocalDateTime.now();
+	}
+
+	@PostPersist
+	private void onUpdate() {
+		updateDate = LocalDateTime.now();
+	}
+
 }
