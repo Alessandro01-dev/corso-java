@@ -17,10 +17,10 @@ import com.example.orders.repository.CustomersRepository;
 
 @Service
 public class CustomersService {
-
-	private final CustomersRepository repo;
 	
 	private static final Logger log = LoggerFactory.getLogger(CustomersService.class);
+
+	private final CustomersRepository repo;
 
 	public CustomersService(CustomersRepository repo) {
 		super();

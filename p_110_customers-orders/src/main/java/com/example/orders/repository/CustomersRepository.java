@@ -19,6 +19,7 @@ public interface CustomersRepository extends JpaRepository<Customer, Integer> {
 	@Query("SELECT u FROM Customer u WHERE u.lastName LIKE CONCAT( '%',?1, '%')")
 	List<Customer> findByEmailLike(String pattern);
 
+	@Query("SELECT c FROM Customer c WHERE UPPER(c.city) LIKE UPPER(:city) ESCAPE '\\'")
 	List<Customer> findByCityContainingIgnoreCase(String city);
 	
 	Optional<Customer> findByEmailIgnoreCase(String email);
